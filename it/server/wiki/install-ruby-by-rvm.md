@@ -10,7 +10,8 @@ rvm 安装主要参考这两个链接：
     1.2. 添加PPA安装RVM  
     $ sudo apt-add-repository -y ppa:rael-gc/rvm  
     $ sudo apt-get update  
-    $ sudo apt-get install rvm
+    $ sudo apt-get install rvm  
+    安装之后需要将用户添加的rvm 用户组，并且需要重新登录才能使用rvm。
 
 2. 安装ruby  
     2.1. 安装RVM依赖  
