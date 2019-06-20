@@ -8,7 +8,7 @@ $ sudo apt-get install git nano curl libicu-dev
 $ sudo adduser --home /home/sunrise --shell /bin/bash  
 $ sudo usermod -a -G sudo sunrise  
 
-3. [安装ruby](/it/server/install-ruby-by-rvm)  
+3. [安装ruby](/it/server/wiki/install-ruby-by-rvm)  
     3.1. 安装gollum  
         $ gem install -no-ri -no-rdoc gollum puma  
     3.2. 为gollum创建git仓库  
