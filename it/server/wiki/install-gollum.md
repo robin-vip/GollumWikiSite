@@ -17,3 +17,12 @@ $ sudo usermod -a -G sudo sunrise
         $ ~/.rvm/gems/ruby-2.4.6/gems/gollum-4.1.4/bin/gollum ~/workspaces/project/gollum/gitrepo/  
         "--live-preview" 选项能够让其一边修改一边预览
 
+源码安装
+https://github.com/gollum/gollum
+
+    git clone https://github.com/gollum/gollum
+    cd gollum
+    [sudo] bundle install (may not always be necessary).
+    bundle exec bin/gollum
+        Like that, gollum assumes the target wiki (git repository) is the project repository itself. If it's not, execute bundle exec bin/gollum <path-to-wiki> instead.
+    Open http://localhost:4567 in your browser.
