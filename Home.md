@@ -7,4 +7,5 @@
   * [Install mm wiki](/it/server/wiki/Install-mm-wiki)
 
 # Mysql
-1. **安装mysql**
+1. **[安装mysql](/it/mysql/Install-Mysql)**
+ 
