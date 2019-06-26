@@ -5,3 +5,6 @@
 1. **安装WiKi系统**  
   * [Install gollum wiki](/it/server/wiki/install-gollum)
   * [Install mm wiki](/it/server/wiki/Install-mm-wiki)
+
+# Mysql
+1. **安装mysql**
