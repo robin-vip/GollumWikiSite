@@ -1,9 +1,10 @@
+<h1>Install mm WiKi</h1>
 操作系统：Ubuntu 12.04.5 LTS (GNU/Linux 3.13.0-32-generic i686)
-1. 安装mysql.
 
-2. 下载mm_wiki安装包  
+1. 安装mysql.
+* 下载mm_wiki安装包  
 ```
-# https://github.com/phachon/mm-wiki/releases  （mm-wiki-linux-386.tar.gz）  
+# https://github.com/phachon/mm-wiki/releases   （mm-wiki-linux-386.tar.gz）  
 $ cd install
 # 执行安装程序，默认端口为 8090，指定其他端口加参数 --port=8087
 $ ./install
