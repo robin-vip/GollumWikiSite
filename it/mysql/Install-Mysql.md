@@ -1,3 +1,4 @@
+<h1>Install Mysql</h1>
 操作系统：Ubuntu 12.04.5 LTS (GNU/Linux 3.13.0-32-generic i686)
 
 1. sudo apt-get install mysql-server  
