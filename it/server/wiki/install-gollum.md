@@ -1,3 +1,4 @@
+# Install Gollum 
 系统：Ubuntu 12.04.1 LTS (GNU/Linux 3.2.0-29-generic-pae i686)
 
 1. 安装依赖包  
