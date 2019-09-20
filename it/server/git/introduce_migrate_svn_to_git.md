@@ -1,3 +1,4 @@
+# How to migrate SVN repository to GIT server
 **准备： a.SVN上被迁移的仓库； b.windows git工具（别的git 工具也行，目的是用于将svn仓库转换成git仓库）； c.git server(git lab).**
 
 1. **安装git** ([Git-2.23.0-64-bit](https://github.com/git-for-windows/git/releases/download/v2.23.0.windows.1/Git-2.23.0-64-bit.exe))
