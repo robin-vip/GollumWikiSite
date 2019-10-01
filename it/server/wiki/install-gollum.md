@@ -42,4 +42,4 @@ $ sudo usermod -a -G sudo sunrise
 4. `/etc/init.d/gollum start` to start Gollum.
 
 
-* **[markdown教程](https://www.runoob.com/markdown/md-tutorial.html)**
+**[markdown教程](https://www.runoob.com/markdown/md-tutorial.html)**
