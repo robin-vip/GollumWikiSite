@@ -1,5 +1,5 @@
 <h1>Install Mysql</h1>
-操作系统：Ubuntu 12.04.5 LTS (GNU/Linux 3.13.0-32-generic i686)
+操作系统：Ubuntu 12.04.5 LTS (GNU/Linux 3.13.0-32-generic i686)   
 ## dpkg安装
 1. sudo apt-get install mysql-server  
 (安装过程中会要求输入database root用户的密码)
