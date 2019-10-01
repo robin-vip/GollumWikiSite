@@ -141,6 +141,10 @@ mysql -u root -p
   ```
   $ mysqladmin -u root password '123456'
   ```
+  注：也可运行安全设置脚本，修改MySQL用户root的密码，同时可禁止root远程连接，移除test数据库和匿名用户。
+  ```
+  $ mysql_secure_installation
+  ```
   
 * 参考  
 [mysql编译安装](https://www.cnblogs.com/sqbk/p/5922921.html)
