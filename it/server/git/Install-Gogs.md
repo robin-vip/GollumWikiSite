@@ -47,4 +47,5 @@
   ```
   $ vi custom/conf/app.ini
   ```
+  [local gogs configuration](/it/server/git/gogs_configuration)
   
