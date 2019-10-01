@@ -59,12 +59,27 @@ mysql -u root -p
   $ sudo make install
   ```
   [mysql其它版本下载链接](https://downloads.mysql.com/archives/community/)  
-  cmake 配置  
+  #### cmake 配置  
   
-  cmake option | configure option | Parameter  |  
-  -|-|-|    
-  a|b|c|  
-  
+  cmake option | configure option | Parameter option  
+  ---- |---- | ----  
+  -DCMAKE_INSTALL_PREFIX=/usr/local/mysql | --prefix=/usr/local/mysql | 设置mysql安装目录 |
+  -DMYSQL_DATADIR=/usr/local/mysql/data | --localstatedir=/usr/local/mysql/data | 设置mysql数据库文件目录 |
+  -DSYSCONFDIR=/usr/local/mysql/conf | --sysconfdir=/usr/local/mysql/conf | 设置MySQL参数文件的默认路径，这一选项可以在MySQL服务启动时通过defaults-file参数进行设置 |
+  -DWITH_MYISAM_STORAGE_ENGINE=1 |  | 安装 MyISAM存储引擎 |
+  -DWITH_INNOBASE_STORAGE_ENGINE=1 || 安装 InnoDB存储引擎 |
+  -DWITH_MEMORY_STORAGE_ENGINE=1 || 安装 Memory存储引擎 |
+  -DWITH_READLINE=1 || 设置输入输出的处理方式(5.1及之前版本，5.6.5及以上版本不需要处理)|
+  -DMYSQL_UNIX_ADDR=/tmp/mysql.sock || 设置监听套接字路径，这必须是一个绝对路径名。 |
+  -DMYSQL_TCP_PORT=3306 || 设置监听端口 |
+  -DENABLED_LOCAL_INFILE=1 || 是否允许从客户端本地加载数据到MySQL服务端，专用于load data infile语句，默认是不允许的 |
+  -DWITH_PARTITION_STORAGE_ENGINE=1 || 安装分区存储引擎 |
+  -DEXTRA_CHARSETS=all || 安装所有扩展字符集 |
+  -DDEFAULT_CHARSET=utf8 || 设置MySQL服务的默认字符集（缺省是latin1） |
+  -DDEFAULT_COLLATION=utf8_general_ci || 设置MySQL服务的默认校对规则，本参数的默认值为latinl_swedish_ci，这一选项在MySQL服务启动时也可以通过collation_server参数进行设置 |
+
+
+
   -DCMAKE_INSTALL_PREFIX=/usr|--prefix=/usr|设置mysql安装目录|  
 
 3. 
