@@ -80,8 +80,6 @@ mysql -u root -p
 
 
 
-  -DCMAKE_INSTALL_PREFIX=/usr|--prefix=/usr|设置mysql安装目录|  
-
 3. 
 
 
