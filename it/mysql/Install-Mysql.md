@@ -114,10 +114,31 @@ mysql -u root -p
       PATH="/usr/local/mysql/bin:$PATH"
   fi
   ```
-  
-  e. 设置mysql服务
+  执行下面的命令，让其立即生效
+  ```
+  $ source ~/.profile
+  ```
+  e. 初始化mysql数据库
+  ```
+  $ ./scripts/mysql_install_db --user=sunrise --basedir=/usr/local/mysql --datadir=/usr/local/mysql/data
+  ```
+  f. 设置mysql服务
   ```
   $ sudo cp support-files/mysql.server /etc/init.d/mysqld
+  ```
+  g. 启动mysql服务
+  ```
+  $ service mysqld start
+  ```
+  查看服务是否启动
+  ```
+  $ netstat -tulnp | grep 3306 
+  $ mysql -u root -p   
+  (密码为空，如果能登陆上，则安装成功。)
+  ```
+  h. 配置mysql用户root的密码
+  ```
+  $ mysqladmin -u root password '123456'
   ```
   
 
