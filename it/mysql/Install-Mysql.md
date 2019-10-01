@@ -44,7 +44,7 @@ mysql -u root -p
   $ cd mysql-5.5.62 
   $ cmake -DCMAKE_INSTALL_PREFIX=/usr/local/mysql \
     -DMYSQL_DATADIR=/usr/local/mysql/data \
-    -DSYSCONFDIR=/etc \
+    -DSYSCONFDIR=/usr/local/mysql/conf \
     -DWITH_MYISAM_STORAGE_ENGINE=1 \
     -DWITH_INNOBASE_STORAGE_ENGINE=1 \
     -DWITH_MEMORY_STORAGE_ENGINE=1 \
