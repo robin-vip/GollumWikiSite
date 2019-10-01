@@ -62,7 +62,7 @@ mysql -u root -p
   #### cmake 配置  
   
   cmake option | configure option | Parameter option  
-  ---- |---- | ----  
+  ---- | ---- | ----  
   -DCMAKE_INSTALL_PREFIX=/usr/local/mysql | --prefix=/usr/local/mysql | 设置mysql安装目录 |  
   -DMYSQL_DATADIR=/usr/local/mysql/data | --localstatedir=/usr/local/mysql/data |   设置mysql数据库文件目录 |  
   -DSYSCONFDIR=/usr/local/mysql/conf | --sysconfdir=/usr/local/mysql/conf |   设置MySQL参数文件的默认路径，这一选项可以在MySQL服务启动时通过defaults-file参数进行设置 |  
