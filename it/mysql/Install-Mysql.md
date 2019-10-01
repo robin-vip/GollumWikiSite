@@ -142,6 +142,8 @@ mysql -u root -p
   $ mysqladmin -u root password '123456'
   ```
   
+* 参考  
+[mysql编译安装](https://www.cnblogs.com/sqbk/p/5922921.html)
 
 
 
