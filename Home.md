@@ -11,7 +11,7 @@
  
 # Git
 1. **[How to migrate svn repository to git server](/it/server/git/introduce_migrate_svn_to_git)**
-2. **[Instal Gogs](/it/server/git/Install-Gogs)**
+2. **[Install Gogs](/it/server/git/Install-Gogs)**
 
 # Complier(编译器)
 1. **[Install Golang](/it/complier/Install-Golang)**
