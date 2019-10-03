@@ -61,7 +61,7 @@
   jenkins的配置数据保存在"~/.jenkins"目录
   
 参考:  
-**(https://www.yiibai.com/jenkins)**
+https://www.yiibai.com/jenkins
 
 
 
