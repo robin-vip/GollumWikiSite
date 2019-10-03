@@ -42,7 +42,6 @@
   $ dpkg -X jenkins_2.190.1_all.deb jenkins
   $ cp jenkins/usr/share/jenkins/jenkins.war /usr/local/apache-tomcat-7.0.96/webapps/
   ```
-  
   c. 初始化运行配置  
   ```
   $ /usr/local/apache-tomcat-7.0.96/bin/startup.sh
