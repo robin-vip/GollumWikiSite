@@ -48,6 +48,16 @@
   在浏览器输入：http://192.168.128.3:8080/jenkins/
   根据提示进行初始化设置
   ```
+  ```
+  vi ~/StartupTask/task_table.sh
+  ```
+  将下面的内容添加到文件末尾
+  ```
+  if [ -f "/usr/local/apache-tomcat-7.0.96/bin/startup.sh" ];then
+      echo "Start jenkins serverice.(base on tomcat)"
+      /usr/local/apache-tomcat-7.0.96/bin/startup.sh
+  fi
+  ```
   
 
 
