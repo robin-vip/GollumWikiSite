@@ -3,7 +3,7 @@
 
 1. 安装Java8  
   a. 下载 [jre-8u221-linux-i586.tar.gz](https://pan.baidu.com/s/1zU124nYybpuhyWaCGj1FbA)  
-  (下载地址：https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html)
+  (下载地址：https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html)  
   b. 安装  
   ```
   $ sudo tar zxvf jre-8u221-linux-i586.tar.gz  -C /usr/local
