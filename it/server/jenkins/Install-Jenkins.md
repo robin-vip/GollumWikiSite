@@ -58,6 +58,7 @@
       /usr/local/apache-tomcat-7.0.96/bin/startup.sh
   fi
   ```
+  jenkins的配置数据保存在"~/.jenkins"目录
   
 
 
