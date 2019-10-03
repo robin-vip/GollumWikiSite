@@ -1,4 +1,4 @@
-<h1>Install Mysql</h1>
+<h1>Install Jenkins</h1>
 操作系统：Ubuntu 12.04.5 LTS (GNU/Linux 3.13.0-32-generic i686)
 
 1. 安装Java8  
