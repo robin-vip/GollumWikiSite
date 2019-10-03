@@ -4,13 +4,11 @@
 1. 安装Java8  
   a. 下载 [jre-8u221-linux-i586.tar.gz](https://pan.baidu.com/s/1zU124nYybpuhyWaCGj1FbA)  
   (下载地址：https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html)
-
   b. 安装  
   ```
   $ sudo tar zxvf jre-8u221-linux-i586.tar.gz  -C /usr/local
   $ sudo chown sunrise:sunrise -R /usr/local/apache-tomcat-7.0.96
   ```
-
   c. 配置
   ```
   $ vi ~/.profile
@@ -31,7 +29,6 @@
 2. 安装tomcat
   a. 下载 [apache-tomcat-7.0.96.tar.gz](https://pan.baidu.com/s/1XaVYBsGfQjiV1y3rSGf1aQ)  
   (下载地址： https://tomcat.apache.org/download-70.cgi 选择Binary Distributions -> Core -> tar.gz)
-
   b. 安装
   ```
   $ sudo tar zxvf apache-tomcat-7.0.96.tar.gz -C /usr/local/
@@ -40,7 +37,6 @@
 3. 安装jenkins  
   a. 下载 [jenkins_2.190.1_all.deb](https://pan.baidu.com/s/16asybDOLlgMCu74mSBue_g)  
   (下载地址：https://jenkins.io/zh/download/)  
-
   b. 安装  
   ```
   $ dpkg -X jenkins_2.190.1_all.deb jenkins
