@@ -8,6 +8,7 @@
   b. 安装  
   ```
   $ sudo tar zxvf jre-8u221-linux-i586.tar.gz  -C /usr/local
+  $ sudo chown sunrise:sunrise -R /usr/local/apache-tomcat-7.0.96
   ```
 
   c. 配置
@@ -22,3 +23,40 @@
       PATH="$JAVA_HOME/bin:$PATH"
   fi
   ```
+  使配置生效
+  ```
+  $ source ~/.profile
+  ```
+  
+2. 安装tomcat
+  a. 下载 [apache-tomcat-7.0.96.tar.gz](https://pan.baidu.com/s/1XaVYBsGfQjiV1y3rSGf1aQ)  
+  (下载地址： https://tomcat.apache.org/download-70.cgi 选择Binary Distributions -> Core -> tar.gz)
+
+  b. 安装
+  ```
+  $ sudo tar zxvf apache-tomcat-7.0.96.tar.gz -C /usr/local/
+  ```
+  
+3. 安装jenkins  
+  a. 下载 [jenkins_2.190.1_all.deb](https://pan.baidu.com/s/16asybDOLlgMCu74mSBue_g)  
+  (下载地址：https://jenkins.io/zh/download/)  
+
+  b. 安装  
+  ```
+  $ dpkg -X jenkins_2.190.1_all.deb jenkins
+  $ cp jenkins/usr/share/jenkins/jenkins.war /usr/local/apache-tomcat-7.0.96/webapps/
+  ```
+  
+  c. 初始化运行配置  
+  ```
+  $ /usr/local/apache-tomcat-7.0.96/bin/startup.sh
+  在浏览器输入：http://192.168.128.3:8080/jenkins/
+  根据提示进行初始化设置
+  ```
+  
+
+
+
+
+
+
