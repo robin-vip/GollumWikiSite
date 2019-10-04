@@ -9,3 +9,12 @@
 # Mysql
 1. **[安装mysql](/it/mysql/Install-Mysql)**
  
+# Git
+1. **[How to migrate svn repository to git server](/it/server/git/introduce_migrate_svn_to_git)**
+2. **[Install Gogs](/it/server/git/Install-Gogs)**
+
+# Jenkins
+1. **[Install Jenkins](/it/server/jenkins/Install-Jenkins)**
+
+# Complier(编译器)
+1. **[Install Golang](/it/complier/Install-Golang)**

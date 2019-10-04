@@ -40,3 +40,6 @@ $ sudo usermod -a -G sudo sunrise
 3. Make the script executable if it isn't already:  
     `chmod +x /etc/init.d/gollum`  
 4. `/etc/init.d/gollum start` to start Gollum.
+
+**Tips:**  
+**[markdown教程](https://www.runoob.com/markdown/md-tutorial.html)**
