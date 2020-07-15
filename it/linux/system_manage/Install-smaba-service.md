@@ -31,7 +31,7 @@ $ sudo vi smb.conf
 path=/home/x4 //x4为你要共享的文件夹名，在共享前还要建立这个文件夹，并设好权限以便访问，下面会说明。
 
 valid users=user1 //这个x4共享目录只允许user1这个用户进入
-; browseable = yes  // ';'号不能去掉，这个表示在window下是否可见
+; browseable = yes  // ';'是将这一行注释，这个表示在window下是否可见
 writable=yes　　 //允许user1在x4目录中进行读和写操作，反之no
 ```
 
