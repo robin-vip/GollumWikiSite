@@ -18,3 +18,6 @@
 
 # Complier(编译器)
 1. **[Install Golang](/it/complier/Install-Golang)**
+ 
+# Linux管理
+1. **[Install smaba service](/it/linux/system_manage/Install-smaba-service)**
