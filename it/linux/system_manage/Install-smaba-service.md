@@ -1,6 +1,7 @@
 <h1>Install smaba service</h1>
 操作系统：Ubuntu 12.04.5 LTS (GNU/Linux 3.13.0-32-generic i686)
 
+
 1. 安装samba服务
 ```
 $ sudo apt-get install samba
@@ -43,15 +44,18 @@ $ sudo chown -R user1:user1 /home/x4 //因为是root建立的目录，其它用�
 
 6. 重启samba服务
 ```
-$ sudo /etc/init.d/samba restart
+$ sudo /etc/init.d/smbd restart
 ```
 
 7. 安装图形配置界面 （可选）
 ```
 $ sudo apt-get install system-config-samba
+（最好选择http://mirrors.163.com 源，下载速度更快）
 安装后启动管理界面
 $ sudo system-config-samba        （也可以在点击菜单项进去：系统－系统管理－Samba）
 ```
 
+
+Notes: 上面的安装步骤在相同的系统内经过验证的
 
 
