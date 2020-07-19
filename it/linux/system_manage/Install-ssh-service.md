@@ -12,3 +12,8 @@ ssh 服务的配置文件是/etc/ssh/ssh_config，重启ssh服务的命令:
 ```
 # sudo apt-get install openssh-client
 ```
+
+3. ssh 登录
+```
+# ssh user_name@host_ip
+```
