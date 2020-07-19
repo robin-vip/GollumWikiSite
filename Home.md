@@ -21,6 +21,7 @@
  
 # Linux管理
 1. **[Install smaba service](/it/linux/system_manage/Install-smaba-service)**
+2. **[Install ssh service](/it/linux/system_manage/Install-ssh-service)**
 
 # Vim
 1. **[How to use vim better](/it/editor/vim/Introduce-vim-usage)**
