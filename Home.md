@@ -23,5 +23,8 @@
 1. **[Install smaba service](/it/linux/system_manage/Install-smaba-service)**
 2. **[Install ssh service](/it/linux/system_manage/Install-ssh-service)**
 
+# Linux终端
+1. **[Linux 终端快捷键](/it/linux/terminal/Linux-terminal-shortcut)**
+
 # Vim
 1. **[How to use vim better](/it/editor/vim/Introduce-vim-usage)**
