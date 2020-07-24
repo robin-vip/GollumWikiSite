@@ -26,5 +26,8 @@
 # Linux终端
 1. **[Linux 终端快捷键](/it/linux/terminal/Linux-terminal-shortcut)**
 
+# Linux词典
+1. **[Install sdcv](/it/linux/software/dict/install-sdcv)**
+
 # Vim
 1. **[How to use vim better](/it/editor/vim/Introduce-vim-usage)**
