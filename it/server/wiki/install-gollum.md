@@ -2,7 +2,7 @@
 系统：Ubuntu 12.04.1 LTS (GNU/Linux 3.2.0-29-generic-pae i686)
 
 1. 安装依赖包  
-$ sudo apt-get update
+$ sudo apt-get update  
 $ sudo apt-get install git nano curl libicu-dev  
 
 2. 为gollum创建一个用户  
