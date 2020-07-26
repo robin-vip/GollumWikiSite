@@ -42,3 +42,21 @@ endfunction
 nmap <F7> :call UpdateCtags() <CR>
 ```
 添加F7映射键
+
+3. ctags跳转
+    3.1 显示多个匹配
+```
+g+Ctrl+]: 显示多个匹配项，并用数字表示。输入数字并回车就可以跳转到相应的匹配处。
+```
+    3.2 多个匹配处的跳转
+```
+:tfirst                     到第一个匹配
+:tlast                      到最后一个匹配
+:tnext                      到下一个匹配
+:tprevious                  到前一个匹配
+:[count]tnext               向后[count]个匹配
+:[count]tprevious           向前[count]个匹配
+```
+
+
+
