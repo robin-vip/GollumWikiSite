@@ -50,10 +50,10 @@ g+Ctrl+]: 显示多个匹配项，并用数字表示。输入数字并回车就�
 ```
     3.2 多个匹配处的跳转
 ```
-:tfirst                     到第一个匹配
-:tlast                      到最后一个匹配
-:tnext                      到下一个匹配
-:tprevious                  到前一个匹配
+:tfirst     或:tf           到第一个匹配
+:tlast      或:tl           到最后一个匹配
+:tnext      或:tn           到下一个匹配
+:tprevious  或:tp           到前一个匹配
 :[count]tnext               向后[count]个匹配
 :[count]tprevious           向前[count]个匹配
 ```
