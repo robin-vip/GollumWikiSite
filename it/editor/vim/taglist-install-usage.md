@@ -6,7 +6,7 @@
 
 2. 安装 taglist
 ```
-将doc/taglist, plugin/taglist.vim分别拷贝到~/.vim/doc/和~/.vim/plugin/目录
+将doc/taglist.txt, plugin/taglist.vim分别拷贝到~/.vim/doc/和~/.vim/plugin/目录
 ```
 
 # taglist usage
