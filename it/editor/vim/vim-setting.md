@@ -12,3 +12,11 @@ if has("autocmd")
 endif
 
 ```
+
+2. 窗口方向键映射
+```
+nmap <C-J> <C-W>j              // 向上的窗口
+nmap <C-K> <C-W>k              // 向下的窗口
+nmap <C-H> <C-W>h              // 向左的窗口
+nmap <C-L> <C-W>l              // 向右的窗口
+```
