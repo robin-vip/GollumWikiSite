@@ -7,3 +7,9 @@
 ```
 将doc/srcexpl.txt, plugin/srcexpl.vim分别拷贝到~/.vim/doc/和~/.vim/plugin/目录
 ```
+
+3. 修改插件
+```
+# vi ~/.vim/plugin/srcexpl.vim
+将“exe "set tags=tags;"”注释掉，否则打开srcexpl是会调用SrcExpl_Init函数将vimrc设置的tags变量值覆盖掉。
+```
