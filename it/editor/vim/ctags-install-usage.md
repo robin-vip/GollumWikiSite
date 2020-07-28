@@ -65,4 +65,5 @@ g+Ctrl+]: 显示多个匹配项，并用数字表示。输入数字并回车就�
 源码目录用全局路径生成的tags file可以拷贝到任意路径
 ```
 
+**[tags使用参考](https://www.cnblogs.com/leino11121/archive/2011/04/23/2381915.html)**
 
