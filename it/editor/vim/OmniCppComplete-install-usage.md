@@ -1,5 +1,6 @@
 <h1> OmniCppComplete install usage. </h1>
 操作系统：Ubuntu 12.04.5 LTS (GNU/Linux 3.13.0-32-generic i686)  
+代码自动补全，配合autocomplpop插件
 
 # Install
 1. 下载 **[omnicppcomplete-0.41.zip](https://www.vim.org/scripts/download_script.php?src_id=7722)**
