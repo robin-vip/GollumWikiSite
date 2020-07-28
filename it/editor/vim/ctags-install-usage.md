@@ -1,6 +1,8 @@
 <h1> ctags install usage. </h1>
 操作系统：Ubuntu 12.04.5 LTS (GNU/Linux 3.13.0-32-generic i686)  
 
+创建标签，用于函数或数据类型定义跳转
+
 # Install ctags  
 
 ```
