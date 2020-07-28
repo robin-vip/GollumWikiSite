@@ -23,12 +23,12 @@ nmap <C-L> <C-W>l              // 向右的窗口
 
 3. 指定一行的最大字符数
 ```
-set tw=78                      // 一行的最大字符数是78， tw也可以是textwidth
+set tw=78                      // 一行的最大字符数是78，set tw=0取消限制  tw也可以是textwidth
 ```
 
 4. 高亮指定的列
 ```
-set cc=90                     // 将第90列高亮显示
+set cc=90                     // 将第90列高亮显示， set cc=0 取消高亮显示
 
 设置函数映射，通过按下,ch 就可以将当前光标下的列高亮，再按下一次，取消高亮；并且可以同时多列高亮。
 map ,ch :call SetColorColumn()<CR>
@@ -42,7 +42,10 @@ function! SetColorColumn()
     endif
 endfunction
 
+```
 
-
+5. 设置光标所在行线
+```
+set cul                      // 光标所在行下方会有一条横线， set nocul 取消这条横线
 ```
 
