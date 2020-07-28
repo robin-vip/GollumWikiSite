@@ -1,6 +1,8 @@
 <h1> taglist install usage. </h1>
 操作系统：Ubuntu 12.04.5 LTS (GNU/Linux 3.13.0-32-generic i686)  
 
+标签列表插件
+
 # Install taglist
 1. 下载 **[taglist_46.zip](https://www.vim.org/scripts/download_script.php?src_id=19574)**  
 
