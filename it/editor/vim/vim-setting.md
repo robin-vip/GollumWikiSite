@@ -88,7 +88,7 @@ set foldenable
 "set textwidth=120 " the max number of showing characters in a line.  设置一行的最大字符数，超过会自动换行
 set cc=90
 
-set undofile        " save the hisotry of editting   保存正在编辑文件的历史
+set undofile        " save the hisotry of editting   保留撤销历史  Vim 会在编辑时保存操作历史，用来供用户撤消更改。默认情况下，操作记录只在本次编辑时有效，一旦编辑结束、文件关闭，操作历史就消失了。打开这个设置，可以在文件关闭后，操作记录保留在一个文件里面，继续存在。这意味着，重新打开一个文件，可以撤销上一次编辑时的操作。
 " set file path for backup, undo.
 set backupdir=~/.vim/.backup//     " 设置备份文件的路径，修改文件未保存之前保存一份未修改的版本
 set directory=~/.vim/.swp//        " 交换文件路径
