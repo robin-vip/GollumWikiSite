@@ -65,7 +65,7 @@ set number          " show line number  显示行号，也可以用"set nu", 取
 set tabstop=4       " Replace TAB with 4 backspace. 修改Tab键显示的宽度（4个空格，默认是8个），也可以用“set ts=4”
 set expandtab       " 选项把插入的Tab字符替换成特定数目的空格，具体空格数据与tabstop选项值有关
 
-set laststatus=2    “ 总显示最后一个窗口的状态行；设为1则窗口数多于一个的时候显示最后一个窗口的状态行；0不显示最后一个窗口的状态行
+set laststatus=2    “ 是否显示状态栏。0 表示不显示，1 表示只在多窗口时显示，2 表示显示。
 
 " set auto indent.
 set shiftwidth=4    " (自动) 缩进使用的4个空格
@@ -87,6 +87,10 @@ set foldenable
 
 "set textwidth=120 " the max number of showing characters in a line.  设置一行的最大字符数，超过会自动换行
 set cc=90
+
+"set wrap            " 自动折行，即太长的行分成几行显示 "set nowrap"关闭自动折行
+
+"set linebreak       " 只有遇到指定的符号（比如空格、连词号和其他标点符号），才发生折行。也就是说，不会在单词内部折行。
 
 set undofile        " save the hisotry of editting   保留撤销历史  Vim 会在编辑时保存操作历史，用来供用户撤消更改。默认情况下，操作记录只在本次编辑时有效，一旦编辑结束、文件关闭，操作历史就消失了。打开这个设置，可以在文件关闭后，操作记录保留在一个文件里面，继续存在。这意味着，重新打开一个文件，可以撤销上一次编辑时的操作。
 " set file path for backup, undo.
