@@ -112,4 +112,10 @@ set autoread        " 当文件在外部被改变时，vim自动更新载入
 
 set wildmenu        " 使用'wildmenu'选项，将启用增强模式的命令行补全。在命令行中输入命令时，按下'wildchar'键（默认为Tab）将自动补全命令和参数：此时将在命令行的上方显示可能的匹配项；继续按下'wildchar'键，可以遍历所有的匹配项；也可以使用方向键或者CTRL-P/CTRL-N键，在匹配列表中进行移动；最后点击回车键，选择需要的匹配项。
 set wildmode=longest:list,full  " 命令自动补全模式  使用"longest:list,full"选项，点击Tab键，将显示可能匹配的文件列表，并使用最长的子串进行补全；再次点击Tab键，可以在wildmenu中遍历匹配的文件列表：
+
+" QuickFix setting
+map <F3> :make clean<CR><CR><CR>   " 按下F3，执行make clean
+map <F6> :make<CR><CR><CR> :copen<CR><CR>    " 按下F6，执行make编译程序，并打开quickfix窗口，显示编译信息
+map <F5> :cp<CR>    " 按下F5，光标移到上一个错误所在的行
+map <F4> :cn<CR>    " 按下F4，光标移到下一个错误所在的行
 ```
