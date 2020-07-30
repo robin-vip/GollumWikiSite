@@ -49,3 +49,63 @@ endfunction
 set cul                      // 光标所在行下方会有一条横线， set nocul 取消这条横线
 ```
 
+# 个人vimrc设置
+```
+"set showcmd        " Show (partial) command in status line. 在vim状态行显示部分命令
+set showmatch       " Show matching brackets.    显示匹配的括号
+set ignorecase      " Do case insensitive matching  搜索模式忽略大小写 （也可写作"set ic", 取消是"set noic"）
+set smartcase       " Do smart case matching   如果搜索模式包含大写字符，不使用 'ignorecase' 选项。只有在输入搜索模式并且打开 'ignorecase' 选项时才会使用。
+set incsearch       " Incremental search   增量搜索（输入字符串就显示匹配点）
+"set hlsearch        " highlight all matches of the most recent search pattern. 高亮所有的匹配点
+"set autowrite      " Automatically save before commands like :next and :make   自动把内容写回文件: 如果文件被修改过，在每个 :next、:make之前
+"set hidden     " Hide buffers when they are abandoned
+"set mouse=a        " Enable mouse usage (all modes)   使用鼠标
+set number          " show line number  显示行号，也可以用"set nu", 取消用"set nonu"
+
+set tabstop=4       " Replace TAB with 4 backspace. 修改Tab键显示的宽度（4个空格，默认是8个），也可以用“set ts=4”
+set expandtab       " 选项把插入的Tab字符替换成特定数目的空格，具体空格数据与tabstop选项值有关
+
+set laststatus=2    “ 总显示最后一个窗口的状态行；设为1则窗口数多于一个的时候显示最后一个窗口的状态行；0不显示最后一个窗口的状态行
+
+" set auto indent.
+set shiftwidth=4    " (自动) 缩进使用的4个空格
+set autoindent      " 设置自动对齐(缩进)：即每行的缩进值与上一行相等；使用 noautoindent 取消设置
+set cindent         " 使用 C/C++ 语言的自动缩进方式
+"set smartindent    " 每一行都和前一行有相同的缩进量，同时这种缩进形式能正确的识别出花括号，当遇到右花括号（}），则取消缩进形式。此外还增加了识别C语言关键字的功能。如果一行是以#开头的，那么这种格式将会被特殊对待而不采用缩进格式。
+
+" Highlight the current line.
+" set cursorline     " 高亮显示当前行（有下划线）， "set nocursorline"取消
+
+" Fold settings.
+" manual method settings.
+set foldmethod=syntax  ” 设置折叠方法，默认是manual，indent（常用）缩进折叠方法，相同的缩进中代码会被折叠。syntax （不常用）语法高亮折叠，在c/c++中会折叠花括号部分，其它格式代码中有的不能自动折叠。 marker （常用）标记折叠方法，如上面1-6所使用的方法。关闭vim折叠信息不会丢失，而且易用控制和标注。还有两种 diff 和 expr。
+set foldcolumn=3     " the number of fold status column.   设置折叠栏的宽度为3个字符
+
+set foldlevel=99     " 打开所有折叠，设置foldlevel为最高级别。关闭所有折叠，设置foldlevel为0
+set foldminlines=8
+set foldenable
+
+"set textwidth=120 " the max number of showing characters in a line.  设置一行的最大字符数，超过会自动换行
+set cc=90
+
+set undofile        " save the hisotry of editting   保存正在编辑文件的历史
+" set file path for backup, undo.
+set backupdir=~/.vim/.backup//     " 设置备份文件的路径，修改文件未保存之前保存一份未修改的版本
+set directory=~/.vim/.swp//        " 交换文件路径
+set undodir=~/.vim/.undo//         " 撤销文件路径
+
+set autochdir       " 自动切换工作目录  一个 Vim 会话之中打开多个文件的情况，默认的工作目录是打开的第一个文件的目录。该配置可以将工作目录自动切换到，正在编辑的文件的目录。
+
+set visualbell      " 出错时，发出视觉提示，通常是屏幕闪烁
+
+set history=1000    " 设置vim 历史命令的数量
+
+
+set autoread        " 当文件在外部被改变时，vim自动更新载入
+
+"set listchars=tab:»■,trail:■  " TAB会被显示成 "»■" 而行尾多余的空白字符显示成 "■" 
+"set list           " 将Tab键显示出来， TAB 键显示为 ^I，而 $显示在每行的结尾，以便你能找到可能会被你忽略的空白字符在哪里
+
+set wildmenu        " 使用'wildmenu'选项，将启用增强模式的命令行补全。在命令行中输入命令时，按下'wildchar'键（默认为Tab）将自动补全命令和参数：此时将在命令行的上方显示可能的匹配项；继续按下'wildchar'键，可以遍历所有的匹配项；也可以使用方向键或者CTRL-P/CTRL-N键，在匹配列表中进行移动；最后点击回车键，选择需要的匹配项。
+set wildmode=longest:list,full  " 命令自动补全模式  使用"longest:list,full"选项，点击Tab键，将显示可能匹配的文件列表，并使用最长的子串进行补全；再次点击Tab键，可以在wildmenu中遍历匹配的文件列表：
+```
