@@ -30,4 +30,5 @@
 1. **[Install sdcv](/it/linux/software/dict/install-sdcv)**
 
 # Vim
-1. **[How to use vim better](/it/editor/vim/Introduce-vim-usage)**
+1. **[Install vim and plugins](/it/editor/vim/Install-vim-plugins)**
+2. **[How to use vim better](/it/editor/vim/Introduce-vim-usage)**
