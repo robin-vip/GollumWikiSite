@@ -326,3 +326,14 @@ q:               // 在normal模式下输入"q:"查看vim历史命令 （vimrc�
 :cc   空间不够时，Vim 会缩短出错信息。如果你想查看详细信息，可以使用此命令
 :cl[ist] 列出所有出错信息的概览（只有那些含有文件名或行数的错误信息会被显示，需要查看那些并不含文件名或行数的信息可用“:cl[ist]!”命令）
 ```
+
+# 外部参考链接
+[https://blog.csdn.net/daocaoren1543169565/article/details/53114347](https://blog.csdn.net/daocaoren1543169565/article/details/53114347)
+
+[https://www.cnblogs.com/wyf0518/p/11450923.html](https://www.cnblogs.com/wyf0518/p/11450923.html)
+
+[https://www.cnblogs.com/JamyWong/p/9759948.html](https://www.cnblogs.com/JamyWong/p/9759948.html)
+
+[https://www.cnblogs.com/shanql/p/6048412.html](https://www.cnblogs.com/shanql/p/6048412.html)
+
+[https://www.cnblogs.com/zhangsf/archive/2013/06/13/3134409.html](https://www.cnblogs.com/zhangsf/archive/2013/06/13/3134409.html)
