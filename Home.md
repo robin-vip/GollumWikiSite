@@ -31,4 +31,5 @@
 
 # Vim
 1. **[Install vim and plugins](/it/editor/vim/Install-vim-plugins)**
-2. **[How to use vim better](/it/editor/vim/Introduce-vim-usage)**
+2. **[vim settings](/it/editor/vim/vim-setting)**
+3. **[How to use vim better](/it/editor/vim/Introduce-vim-usage)**
