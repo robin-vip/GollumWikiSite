@@ -16,5 +16,13 @@
 ($VIM 是用户配置目录 例如：C:\Users\user_name)
 
 2. 将[vim settings](/it/editor/vim/vim-setting#个人vimrc设置)的内容拷贝到vimrc文件中
+
+```
+
+4. gvim配置
+```
+colo evening                          // 颜色方案
+winpos 100 100                        // gvim UI显示位置
+set lines=35 columns=120              // 设置窗口大小
 ```
 
