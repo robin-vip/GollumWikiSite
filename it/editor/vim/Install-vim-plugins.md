@@ -6,6 +6,8 @@
 # sudo apt-get install vim
 ```
 
+[windows系统安装vim](/it/editor/vim/Install-gvim)
+
 # 安装vim plugins
 1. [ctags](/it/editor/vim/ctags-install-usage#install-ctags)
 
