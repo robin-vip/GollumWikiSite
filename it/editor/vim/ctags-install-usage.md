@@ -61,6 +61,12 @@ g+Ctrl+]: 显示多个匹配项，并用数字表示。输入数字并回车就�
 :[count]tprevious           向前[count]个匹配
 ```
 
+    3.3 Tab键补全tag
+```
+:tag xyz<tab> – 补齐以xyz开头的tag名，继续按tab键，会显示其他的
+:tag /xyz<tab> – 会用名字中含有xyz的tag名补全
+```
+
 # Notes：
 1. 源码目录最好用全局变量
 ```
