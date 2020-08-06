@@ -27,5 +27,10 @@
   $ source ~/.profile
   ```
 
+Notes:
+```
+# sudo apt-get install golang                   // 用命令安装
+```
+
 参考  
 * [Go 语言环境安装](https://www.runoob.com/go/go-environment.html)
