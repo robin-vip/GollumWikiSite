@@ -78,10 +78,11 @@ queen
 function! Mydict()
     let expl=system('sdcv -n '. expand("<cword>"))
     windo if expand("%")=="diCt-tmp"|q!|endif
-    25vsp diCt-tmp
+    40vsp diCt-tmp
     setlocal buftype=nofile bufhidden=hide noswapfile
     1s/^/\=expl/
     1
+    :set nonu
 endfunction
 nmap F :call Mydict()<CR>
 
