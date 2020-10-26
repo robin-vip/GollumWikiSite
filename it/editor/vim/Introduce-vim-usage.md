@@ -210,6 +210,7 @@ g. 文件浏览
 :Ve 相比Ex会在水平方向分割一个窗口查看目录树。
 :Sex 水平分割当前窗口，并在一个窗口中开启目录浏览器
 :ls 显示当前buffer情况
+:ol 查看最近打开过的文件  （ol是 oldfiles的缩写，用bro ol 或者browse oldfiles也可以）
 
 h. vi与shell切换
 :shell 可以在不关闭vi的情况下切换到shell命令行
