@@ -31,3 +31,14 @@ Visual模式下执行命令，会对选中的特定区块进行注释/反注释
 其它的nerdcommenter命令可以在NORMAL模式下输入命令 :map 看到
 ```
 
+3. 注意
+```
+需要在vim配置文件中文件类型检查打开，否则使用注释命令时会有如下提示：
+NERDCommenter:filetype plugins should be enabled. See :help NERDComInstallation and :help :filetype-plugin-on
+
+在vim 配置文件中添加如下：
+if has("autocmd")
+  filetype plugin on
+endif
+```
+
