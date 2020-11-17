@@ -28,6 +28,15 @@ d. 用HEAD指向分支版本库指定文件替换工作区的文件
 git checkout HEAD <file>
 ```
 
+4. git diff
+```
+a. 工作区与暂存区比较  git diff
+
+b. 暂存区与HEAD比较  git diff --cached
+
+c. 工作区与HEAD比较  git diff HEAD
+```
+
 
 
 
