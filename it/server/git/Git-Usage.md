@@ -50,6 +50,14 @@ git reset --mixed (可以不使用参数，默认为--mixed) <commit>
 ```
 
 5. git clean
+    * 查看哪些文件和目录会被删除
+```
+git clean -nd
+```
+    * 强制删除多余的目录和文件
+```
+git clean -fd
+```
 
 6. git diff
 ```
