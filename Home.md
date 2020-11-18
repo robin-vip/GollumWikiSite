@@ -12,6 +12,7 @@
 # Git
 1. **[How to migrate svn repository to git server](/it/server/git/introduce_migrate_svn_to_git)**
 2. **[Install Gogs](/it/server/git/Install-Gogs)**
+3. **[Git Usage](/it/server/git/Git-Usage.md)**
 
 # Jenkins
 1. **[Install Jenkins](/it/server/jenkins/Install-Jenkins)**
