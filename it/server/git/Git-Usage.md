@@ -49,7 +49,9 @@ git reset --soft <commit>
 git reset --mixed (可以不使用参数，默认为--mixed) <commit>
 ```
 
-5. git diff
+5. git clean
+
+6. git diff
 ```
 a. 工作区与暂存区比较  git diff
 
@@ -58,7 +60,7 @@ b. 暂存区与HEAD比较  git diff --cached
 c. 工作区与HEAD比较  git diff HEAD
 ```
 
-6. git stash
+7. git stash
 ```
 git stash save "save message"    保存当前的工作状态，并添加备注
 
