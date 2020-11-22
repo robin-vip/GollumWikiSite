@@ -1,8 +1,6 @@
 <h1> minibufexpl install usage. </h1>
 操作系统：Ubuntu 12.04.5 LTS (GNU/Linux 3.13.0-32-generic i686)  
 
-创建标签，用于函数或数据类型定义跳转
-
 # Install minibufexpl  
 1. 下载 **[minibufexpl.vim](https://www.vim.org/scripts/download_script.php?src_id=3640)**
 
