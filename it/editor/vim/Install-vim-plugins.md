@@ -8,6 +8,15 @@
 
 [windows系统安装vim](/it/editor/vim/Install-gvim)
 
+# 安装vim中文帮助手册
+1. 下载
+
+2. 安装
+解压后将doc目录下的文件拷贝到～/.vim/doc目录
+
+3. 设置
+set helplang=cn                   // 如果无法显示中文, 在~/.vimrc中增加
+
 # 安装vim plugins
 1. [ctags](/it/editor/vim/ctags-install-usage#install-ctags)
 
@@ -24,3 +33,5 @@
 7. [autocomplpop](/it/editor/vim/autocomplpop-install-usage#install)
 
 8. [NerdCommenter](/it/editor/vim/NerdCommenter-install-usage#install)
+
+9. [minibufexpl](/it/editor/vim/Install-minibufexpl)
