@@ -35,10 +35,9 @@ else
 endif
 ```
 
-4. 解决mm标记 E197错误
-在ubuntu 标记时提示：E197: Cannot set language to "en_US"
-修改 visualmark.vim文件
-将
+4. 解决mm标记 E197错误  
+在ubuntu 标记时提示：E197: Cannot set language to "en_US"  
+修改 visualmark.vim文件, 将 
 ```
   exec ":lan mes en_US"
 ```
