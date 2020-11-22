@@ -5,7 +5,7 @@ NERD_tree包含在Trinity插件下载包中。NERD_tree实现文件树功能，t
 
 1. 下载 **[Trinity-2.1.zip](https://www.vim.org/scripts/download_script.php?src_id=19683)**
 
-2. 安装 
+2. 安装  
 a. NERD_tree
 ```
 将NERD_tree.vim拷贝到~/.vim/plugin/目录
