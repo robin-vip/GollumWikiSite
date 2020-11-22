@@ -39,3 +39,5 @@ set helplang=cn                   // 如果无法显示中文, 在~/.vimrc中增
 8. [NerdCommenter](/it/editor/vim/NerdCommenter-install-usage#install)
 
 9. [minibufexpl](/it/editor/vim/Install-minibufexpl)
+
+10. [Grep](/it/editor/vim/Install-Grep)
