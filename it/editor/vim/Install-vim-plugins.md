@@ -12,10 +12,14 @@
 1. 下载
 
 2. 安装
+```
 解压后将doc目录下的文件拷贝到～/.vim/doc目录
+```
 
 3. 设置
+```
 set helplang=cn                   // 如果无法显示中文, 在~/.vimrc中增加
+```
 
 # 安装vim plugins
 1. [ctags](/it/editor/vim/ctags-install-usage#install-ctags)
