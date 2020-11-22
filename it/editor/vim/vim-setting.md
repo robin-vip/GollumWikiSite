@@ -132,7 +132,7 @@ map <F4> :cn<CR>    " 按下F4，光标移到下一个错误所在的行
 ```
 
 # vim c语言语法高亮
-修改/usr/share/vim/vim73/syntax/c.vim文件添加一些内容以支持对函数以及算术操作符高亮
+修改/usr/share/vim/vim73/syntax/c.vim文件添加一些内容以支持对函数以及数学操作符高亮
 ```
 "========================================================
 " Highlight All Function
