@@ -7,10 +7,27 @@ git rm --cached <file>
 ```
 
 2. git log
+    * 精简输出模式
 ```
-a. 精简输出模式
 git log --pretty=oneline
-
+--pretty=oneline:  这个会输出完整的commit sha1值
+--oneline:         这个只会输出commit sha1前几个字符(能够唯一标识的最短长度)
+```
+    * 显示最近的几条日志
+```
+可以使用参数-<n> (<n> 为数字), 显示最近的 <n> 条日志.
+git log -3 --oneline
+```
+    * 显示每次提交的具体改动
+```
+git log -p                 // 显示每次提交修改的详细内容
+git log --stat             // 显示每次提交的变更概要
+```
+    * 显示某一个提交的变更
+```
+git show [commit | tag] --stat   
+可以显示提交或者tag的变更, 缺省是HEAD
+--stat: 显示变更概要
 ```
 
 3. git checkout
@@ -61,11 +78,22 @@ git clean -fd
 
 6. git diff
 ```
+git diff 相比GNU diff命令更加强大，支持二进制文件差异等的扩展
 a. 工作区与暂存区比较  git diff
 
 b. 暂存区与HEAD比较  git diff --cached
 
 c. 工作区与HEAD比较  git diff HEAD
+
+d. 工作区与tag1比较  git diff tag1
+
+e. 暂存区与tag1比较  git diff --cached tag1
+
+f. 比较不同版本的差异 git diff <commit1> <commit2> -- <paths>
+
+g. 非Git目录/文件的比较 git diff <path1> <path2>
+
+h. 逐词比较，而非默认的逐行比较  git diff --word-diff
 ```
 
 7. git stash
