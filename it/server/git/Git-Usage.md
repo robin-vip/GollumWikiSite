@@ -85,6 +85,29 @@ git reset --soft <commit>
 git reset --mixed (可以不使用参数，默认为--mixed) <commit>
 ```
 
+5. git cherry-pick 
+    * 基本使用
+```
+1. 应用单个提交
+git cherry-pick commit_A
+cherry-pick拣选操作将提交commit_a (也可以填分支名(代表分支的最新提交), tag标签等)应用到HEAD指向的引用。
+
+2. 应用多个提交
+git cherry-pick commit_1 commit_4
+应用两个提交commit_1, commit_4
+
+git cherry-pick commit_1..commit_4
+应用commit_1到commit_4的提交，包括commit_4,但不包括commit_1。如果需要包括commit_1，应该这样使用
+git cherry-pick commit_1^..commit_4
+```
+    * 配置项
+```
+```
+
+    * 代码冲突
+```
+```
+
 5. git clean
     * 查看哪些文件和目录会被删除
 ```
