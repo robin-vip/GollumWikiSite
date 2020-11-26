@@ -102,10 +102,12 @@ git cherry-pick commit_1^..commit_4
 ```
     * 配置项
 ```
+
 ```
 
     * 代码冲突
 ```
+
 ```
 
 5. git clean
