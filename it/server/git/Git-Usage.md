@@ -159,7 +159,7 @@ h. 逐词比较，而非默认的逐行比较  git diff --word-diff
 
 7. git stash
 ```
-git stash save "save message"    保存当前的工作状态，并添加备注
+git stash save "save message"    保存当前的工作状态，并添加备注 (可能会慢慢被 git stash push替代)
 
 git stash list                   查看有哪些stash
 
