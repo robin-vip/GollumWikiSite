@@ -14,6 +14,7 @@
 1. 配置~/.vimrc
 ```
 let g:NERDSpaceDelims=1                                      // 注释符号后面空一格
+let mapleader=","
 ```
 
 2. 注释
