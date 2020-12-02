@@ -13,7 +13,7 @@
 ```
 
 # Install VisualMark
-1. 下载 [visualmark.vim](https://www.vim.org/scripts/download_script.php?src_id=25998)
+1. 下载 [visualmark.vim](https://www.vim.org/scripts/download_script.php?src_id=4700)
 
 2. 安装  
 ```
