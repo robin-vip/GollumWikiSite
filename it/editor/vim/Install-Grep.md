@@ -9,6 +9,10 @@
 将解压后的autoload, doc, plugin目录下的文件分别拷贝到~/.vim/autoload, ~/.vim/doc, ~/.vim/plugin目录下
 ```
 
+**Notes:** windows gvim除了安装插件之外，还需要安装grep for windows 和 FindUtils for Windows。可以从下面的链接下载  
+[grep for windows](http://gnuwin32.sourceforge.net/packages/grep.htm)  
+[FindUtils for Windows](http://gnuwin32.sourceforge.net/packages/findutils.htm)  
+
 # Grep usage
 1. 命令说明
 ```
