@@ -276,6 +276,10 @@ p：表示替换结果逐行显示（Ctrl+L恢复屏幕）
 省略option：默认仅对每行第一个匹配串进行替换
 如果在源字符串和目标字符串中有特殊字符，需要使用“\”转义
 例子：:%s/CHIP_PLATFORM/PLATFORM_TYPE/g
+
+整词替换：
+:[addr]s/\<源字符串\>/目标字符串/[option]
+例子(全局整词替换): :%s/\<CHIP_PLATFORM\>/PLATFORM_TYPE/g
 ```
 
 6. 大小写转换
