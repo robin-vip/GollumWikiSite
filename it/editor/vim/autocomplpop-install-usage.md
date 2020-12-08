@@ -11,3 +11,6 @@
 ``` 
 
 # Usage
+
+# Notes
+1. 疑似这个插件在windows (Windows 7 Ultimate 64-bit)平台会导致自动补全变慢。
