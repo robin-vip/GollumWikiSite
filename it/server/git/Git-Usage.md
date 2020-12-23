@@ -86,7 +86,7 @@ git reset --mixed (可以不使用参数，默认为--mixed) <commit>
 ```
 
 5. git cherry-pick 
-    * 基本使用
+    * 基本使用(将指定的提交--commit 应用于HEAD指向的commit)
 ```
 1. 应用单个提交
 git cherry-pick commit_A
