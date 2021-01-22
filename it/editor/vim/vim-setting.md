@@ -68,7 +68,7 @@ set expandtab       " 选项把插入的Tab字符替换成特定数目的空格�
 set laststatus=2    “ 是否显示状态栏。0 表示不显示，1 表示只在多窗口时显示，2 表示显示。
 
 " set auto indent.
-set shiftwidth=4    " (自动) 缩进使用的4个空格
+set shiftwidth=4    " (自动) 缩进使用的4个空格, 也可以用“set sw=4”
 set autoindent      " 设置自动对齐(缩进)：即每行的缩进值与上一行相等；使用 noautoindent 取消设置
 set cindent         " 使用 C/C++ 语言的自动缩进方式
 "set smartindent    " 每一行都和前一行有相同的缩进量，同时这种缩进形式能正确的识别出花括号，当遇到右花括号（}），则取消缩进形式。此外还增加了识别C语言关键字的功能。如果一行是以#开头的，那么这种格式将会被特殊对待而不采用缩进格式。
