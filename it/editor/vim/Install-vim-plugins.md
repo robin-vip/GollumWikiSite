@@ -45,3 +45,5 @@ set helplang=cn                   // 如果无法显示中文, 在~/.vimrc中增
 11. [Visual Mark](/it/editor/vim/VisualMark-install-usage)
 
 12. [auto pairs](/it/editor/vim/auto-pairs)
+
+13. [gitgutte](/it/editor/vim/gitgutter-install-usage)
