@@ -1,4 +1,4 @@
-<h1> NerdCommenter install usage. </h1>
+<h1> gitgutter install usage. </h1>
 操作系统：Ubuntu 12.04.5 LTS (GNU/Linux 3.13.0-32-generic i686) 
 Vim插件用于在符号标记列中显示git diff的结果
 
@@ -9,4 +9,29 @@ Vim插件用于在符号标记列中显示git diff的结果
 ```
 将autoload, plugin和doc目录下的文件分别拷贝到~/.vim/autoload, ~/.vim/plugin和~/.vim/doc目录
 ```
+
+# Vimrc settings
+1. 设置标记列的颜色 （缺省的可能会导致标记不可见）
+```
+highlight SignColumn guibg=black ctermbg=black
+```
+
+# Usage
+1. 块(hunk)跳转  
+`[c  跳转下一个hunk`
+`]c  跳转上一个hunk`
+
+2. 预览修改  
+`<leader>hp  光标必须在hunk中`  
+`<leader> 在我的vim设置中是逗号`
+
+3. 暂存修改  
+`<leader>hs  光标必须在hunk中`
+
+4. 撤销修改  
+`<leader>hu  光标必须在hunk中`
+
+5. 关闭gitgutter （缺省是打开的）  
+`:GitGutterBufferDisable`  
+`:GitGutterBufferEnable  是打开gitgutter`
 
