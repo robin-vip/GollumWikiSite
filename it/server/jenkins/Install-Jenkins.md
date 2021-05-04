@@ -32,6 +32,7 @@
   b. 安装
   ```
   $ sudo tar zxvf apache-tomcat-7.0.96.tar.gz -C /usr/local/
+  $ sudo chown sunrise:sunrise -R /usr/local/apache-tomcat-7.0.96
   ```
   
 3. 安装jenkins  
