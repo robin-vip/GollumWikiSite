@@ -7,7 +7,7 @@
   b. 安装  
   ```
   $ sudo tar zxvf jre-8u221-linux-i586.tar.gz  -C /usr/local
-  $ sudo chown sunrise:sunrise -R /usr/local/apache-tomcat-7.0.96
+  $ sudo chown sunrise:sunrise -R /usr/local/jre1.8.0_221
   ```
   c. 配置
   ```
