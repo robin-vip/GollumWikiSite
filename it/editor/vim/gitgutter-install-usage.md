@@ -1,5 +1,5 @@
 <h1> gitgutter install usage. </h1>
-操作系统：Ubuntu 12.04.5 LTS (GNU/Linux 3.13.0-32-generic i686) 
+操作系统：Ubuntu 12.04.5 LTS (GNU/Linux 3.13.0-32-generic i686)  
 Vim插件用于在符号标记列中显示git diff的结果
 
 # Install
