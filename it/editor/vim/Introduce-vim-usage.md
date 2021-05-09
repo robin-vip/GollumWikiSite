@@ -396,3 +396,5 @@ q:               // 在normal模式下输入"q:"查看vim历史命令 （vimrc�
 [https://www.cnblogs.com/zhangsf/archive/2013/06/13/3134409.html](https://www.cnblogs.com/zhangsf/archive/2013/06/13/3134409.html)
 
 [https://blog.csdn.net/wooin/article/details/1858917](https://blog.csdn.net/wooin/article/details/1858917)
+
+[Vim 学习资源整理收集](https://github.com/vim-china/hello-vim)
