@@ -51,4 +51,7 @@ $ ~/.rvm/gems/ruby-2.4.6/gems/gollum-4.1.4/bin/gollum ~/workspaces/project/gollu
 4. `/etc/init.d/gollum start` to start Gollum.
 
 **Tips:**  
-**[markdown教程](https://www.runoob.com/markdown/md-tutorial.html)**
+**[markdown教程](https://www.runoob.com/markdown/md-tutorial.html)**  
+**[github markdown guide](https://guides.github.com/features/mastering-markdown/)**  
+
+
