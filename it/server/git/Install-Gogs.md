@@ -49,3 +49,4 @@
   ```
   [local gogs configuration](/it/server/git/gogs_configuration)
   
+gogs缺省的端口号是3000
