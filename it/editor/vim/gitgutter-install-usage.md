@@ -12,7 +12,7 @@ Vim插件用于在符号标记列中显示git diff的结果
 
 # Vimrc settings
 1. 设置标记列的颜色 （缺省的可能会导致标记不可见）
-```
+```viml
 highlight SignColumn guibg=black ctermbg=black
 highlight GitGutterAdd    guifg=#009900 ctermfg=2
 highlight GitGutterChange guifg=#bbbb00 ctermfg=3
@@ -20,14 +20,14 @@ highlight GitGutterDelete guifg=#ff2222 ctermfg=1
 ```
 
 2. 映射
-```
+```viml
 nmap ghs <Plug>(GitGutterStageHunk)
 nmap ghu <Plug>(GitGutterUndoHunk)
 nmap ghp <Plug>(GitGutterPreviewHunk)
 ```
 
 3. 设置状态栏
-```
+```viml
 function! GitStatus()
   let [a,m,r] = GitGutterGetHunkSummary()
   return printf('+%d ~%d -%d', a, m, r)
