@@ -47,3 +47,5 @@ set helplang=cn                   // 如果无法显示中文, 在~/.vimrc中增
 12. [auto pairs](/it/editor/vim/auto-pairs)
 
 13. [gitgutte](/it/editor/vim/gitgutter-install-usage)
+
+14. [fugitive](/it/editor/vim/fugitive-install-usage)
