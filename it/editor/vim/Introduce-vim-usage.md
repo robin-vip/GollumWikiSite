@@ -384,6 +384,9 @@ q:               // 在normal模式下输入"q:"查看vim历史命令 （vimrc�
 :cl[ist] 列出所有出错信息的概览（只有那些含有文件名或行数的错误信息会被显示，需要查看那些并不含文件名或行数的信息可用“:cl[ist]!”命令）
 ```
 
+14. 保存需要root权限的文件  
+`:w !sudo tee %`
+
 # 外部参考链接
 [https://blog.csdn.net/daocaoren1543169565/article/details/53114347](https://blog.csdn.net/daocaoren1543169565/article/details/53114347)
 
