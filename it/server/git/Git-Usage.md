@@ -4,6 +4,12 @@
 ```
 a. 只删除暂存区文件
 git rm --cached <file>
+
+b. 删除远程分支
+git push origin --delete branch_name
+
+c. 删除本地分支
+git branch -d branch_name
 ```
 
 2. git log

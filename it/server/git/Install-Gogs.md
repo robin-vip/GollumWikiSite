@@ -49,4 +49,9 @@
   ```
   [local gogs configuration](/it/server/git/gogs_configuration)
   
-gogs缺省的端口号是3000
+
+# 使用
+1. gogs缺省的端口号是3000
+
+2. 备份与恢复  
+论坛链接： [How to backup, restore and migrate](https://discuss.gogs.io/t/how-to-backup-restore-and-migrate/991)
