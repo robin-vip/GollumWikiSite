@@ -50,8 +50,52 @@
   [local gogs configuration](/it/server/git/gogs_configuration)
   
 
-# 使用
+# 使用说明
 1. gogs缺省的端口号是3000
 
-2. 备份与恢复  
-论坛链接： [How to backup, restore and migrate](https://discuss.gogs.io/t/how-to-backup-restore-and-migrate/991)
+2. **备份与恢复**  
+论坛链接： [How to backup, restore and migrate](https://discuss.gogs.io/t/how-to-backup-restore-and-migrate/991)  
+The follow is copied from offcial forum  
+**Important Notes**
+* This post is based on Gogs 0.10.18.0313.  
+* If you’re trying to restore to PostgrsSQL, you need at least 0.11.11.0521.  
+
+    Other than pack up `gogs-repositories`, `custom` and database separately, Gogs provides two commands for unified process of **backup**, **restore** and even **migrate to another database engine**.  
+
+    **Backup**  
+Go to the directory where your Gogs binary is located, and execute following command:  
+```
+./gogs backup
+```
+Without any flags, `backup` command will pack up all `gogs-repositories`, `custom` and database into a single zip archive (e.g. `gogs-backup-xxx.zip`) under current directory.  
+It could be a bad idea if your `gogs-repositories` contains GB of raw data, in that case, you can apply `--exclude-repos` flag:
+```
+./gogs backup --exclude-repos
+```
+If your `custom/conf/app.ini` is somewhere unusual, make sure you specify it via `--config` flag like always:  
+```
+./gogs backup --config=my/custom/conf/app.ini
+```
+
+    **Database**  
+If you’re only interested in backup database, or want to migrate from one database engine (e.g. SQLite3) to another engine (e.g. MySQL), `--database-only` is your friend:  
+```
+./gogs backup --database-only
+```
+The backup format of database are portable JSON files, each file corresponds to a database table, you can do whatever you want with those files.  
+
+    **Restore**  
+The `restore` command also has flags to indicate only restore database or everything in backup archive:  
+```
+./gogs restore --database-only --from="gogs-backup-xxx.zip"
+```
+If a table that is not presented in backup archive, whatever in current database table will remain unchanged.  
+
+    **Custom config file**  
+There are 3 steps to determine which `custom/conf/app.ini` command uses:  
+    1. Use the one you specified vis flag `--config`.  
+    2. Use the one stored in backup archive.  
+    3. Use the one in `$(pwd)/custom/conf/app.ini`.  
+If all 3 steps failed, sorry, impossible to perform restore process.
+
+
