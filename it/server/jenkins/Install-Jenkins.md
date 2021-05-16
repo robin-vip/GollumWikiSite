@@ -63,10 +63,8 @@
 4. jenkins操作
 * 关闭jenkins服务  
 `在访问jenkins服务器的网址url地址后加上exit`  
-
 * 重启jenkins服务  
 `在访问jenkins服务器的网址url地址后加上restart`
-
 * 重载jenkins服务  
 `在访问jenkins服务器的网址url地址后加上reload`
 
