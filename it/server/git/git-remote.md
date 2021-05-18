@@ -17,5 +17,5 @@ git remote rm [name]
 
 4. **修改远程仓库的地址URL**
 ```
-git remote set-url –push [name] [new url]
+git remote set-url -–push [name] [new url]
 ```
