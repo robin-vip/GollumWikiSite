@@ -37,8 +37,8 @@ set statusline+=%{GitStatus()}
 
 # Usage
 1. 块(hunk)跳转  
-`[c  跳转下一个hunk`
-`]c  跳转上一个hunk`
+`[c  跳转上一个hunk`  
+`]c  跳转下一个hunk`  
 
 2. 预览修改  
 `<leader>hp  光标必须在hunk中`  
