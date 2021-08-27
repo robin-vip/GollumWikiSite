@@ -24,6 +24,7 @@
 
 12. [git rebase](/it/server/git/git-rebase)
 
+13. [git tag](/it/server/git/git-tag)
 
 
 
