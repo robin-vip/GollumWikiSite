@@ -77,3 +77,6 @@ git push origin :refs/tags/v1.4
 git checkout -b <new-branch-name> <tagname>
 这条命令会在新的分支上checkout tag, 如果不指定分支名也是可以的，只是会处于 detached HEAD状态。
 ```
+
+<h2>扩展： </h2> 
+* git tag 配合 git describe 可以生成仓库代码的版本号
