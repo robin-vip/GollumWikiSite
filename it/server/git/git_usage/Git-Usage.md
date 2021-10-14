@@ -83,6 +83,15 @@ git config user.email sunrise@qq.com
 git config --global core.editor vim        设置git编辑器为vim
 ```
 
+* 设置注释字符  
+  在一些工单系统中，一般工单是以"#issue_id"的格式。 git commit命令
+  在备注提交comment时，一般都需要标明工单。但一般的编辑器是把'#'当
+  作注释符号的。为了不引起冲突，可以用下面的命令，将注释符号改成别
+  的字符。
+```
+git config --global core.commentChar ";"    将注释符号设置成';'字符
+```
+
 * 格式化与多余空白字符  
   `core.autocrlf`  
   多人协作时，因为编辑器不同或者系统不同可能会遇到LF, CRLF问题。
