@@ -1,6 +1,8 @@
 <h1>Git usage</h1>
 
 <h2>Git command</h2>
+1. [git init](/it/server/git/git_usage/git-init)
+
 1. [git rm](/it/server/git/git_usage/git-rm)
 
 2. [git log](/it/server/git/git_usage/git-log)
