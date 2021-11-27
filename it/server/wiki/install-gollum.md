@@ -52,7 +52,7 @@ $ ~/.rvm/gems/ruby-2.4.6/gems/gollum-4.1.4/bin/gollum ~/workspaces/project/gollu
 
 **Tips:**  
 **[markdown教程](https://www.runoob.com/markdown/md-tutorial.html)**  
-**[markdown官方语法教程](https://markdown.com.cn/basic-syntax/)**
+**[markdown官方语法教程](https://markdown.com.cn/basic-syntax/)**  
 **[github markdown guide](https://guides.github.com/features/mastering-markdown/)**  
 
 
