@@ -25,6 +25,9 @@ linux: Linux 风格格式和缩进; or -A8
 * -r OR -R 在子目录下递归处理;
 * --exclude=####  排除指定的文件和目录;
 
+## 外部链接
+[astyle使用说明](https://www.cnblogs.com/jiangxinnju/p/4908575.html)
+
 
 
 
