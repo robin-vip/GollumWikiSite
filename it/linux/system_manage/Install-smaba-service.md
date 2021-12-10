@@ -1,29 +1,20 @@
 <h1>Install smaba service</h1>
-操作系统：Ubuntu 12.04.5 LTS (GNU/Linux 3.13.0-32-generic i686)
+操作系统：Ubuntu 20.04 LTS (GNU/Linux 3.13.0-32-generic i686)
 
 
 1. 安装samba服务
 ```
 $ sudo apt-get install samba
-$ sudo apt-get install sambfs
 ```
 
-2. 添加用户
-```
-$ sudo useradd user1                         // 添加用户名user1
-$ sudo passwd user1                          // 给用户名user1设置密码
-$ sudo mkdir /home/user1                     // 创建user1的home目录，如果不用这个用户登录linux，此步骤不是必须的。
-$ sudo chown -R user1:user1 /home/user1      // 给home目录设置所有者
-```
-
-3. 给samba服务添加用户 （必须是linux系统中的用户）
+2. 给samba服务添加用户 （必须是linux系统中的用户）
 ```
 $ sudo smbpasswd -a user1                   // 添加用户user1并设置samba密码
 ```
 
-4. smaba设置（配置smb.conf文件）
+3. smaba设置（配置smb.conf文件）
 ```
-$ cd /etc/samb
+$ cd /etc/samba
 $ sudo cp smb.conf smb.conf_bak                 // 修改前备份
 $ sudo vi smb.conf
 
