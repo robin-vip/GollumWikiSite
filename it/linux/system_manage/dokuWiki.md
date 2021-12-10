@@ -22,3 +22,6 @@ sudo chown -R www-data:www-data data conf
 ```
 
 5. 安装 http://127.0.0.1/dokuwiki/install.php
+
+## link
+_**[ubuntu下安装dokuwiki](https://blog.csdn.net/weixin_33989058/article/details/91922408)**_
