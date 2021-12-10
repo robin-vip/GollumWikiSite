@@ -13,3 +13,4 @@
 ## link
 _**[how to install lamp in ubuntu](https://www.javatpoint.com/how-to-install-lamp-in-ubuntu)**_  
 _**[whats the easiest way to set up a lamp stack](https://askubuntu.com/questions/34/whats-the-easiest-way-to-set-up-a-lamp-stack)**_  
+_**[lnmp.org](https://lnmp.org/)**_  
