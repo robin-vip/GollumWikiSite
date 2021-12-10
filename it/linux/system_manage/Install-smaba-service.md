@@ -27,18 +27,18 @@ valid users=user1 //这个x4共享目录只允许user1这个用户进入
 writable=yes　　 //允许user1在x4目录中进行读和写操作，反之no
 ```
 
-5. 建立共享目录
+4. 建立共享目录
 ```
 $ sudo mkdir /home/x4
 $ sudo chown -R user1:user1 /home/x4 //因为是root建立的目录，其它用户只有读的权限，所还得把权限改一下。当然也可以简单的用#chmod 777 /home/x4。还有个问题就是共享里目录的文件如果有些能访问有些不能访问，那肯定也是权限的问题,进入/home/x4,直接#chmod 777 *来解决。
 ```
 
-6. 重启samba服务
+5. 重启samba服务
 ```
 $ sudo /etc/init.d/smbd restart
 ```
 
-7. 安装图形配置界面 （可选）
+6. 安装图形配置界面 （可选）
 ```
 $ sudo apt-get install system-config-samba
 （最好选择http://mirrors.163.com 源，下载速度更快）
