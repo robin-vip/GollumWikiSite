@@ -1,5 +1,5 @@
 <h1>Install smaba service</h1>
-操作系统：Ubuntu 20.04 LTS (GNU/Linux 3.13.0-32-generic i686)
+操作系统：Ubuntu 20.04 LTS
 
 
 1. 安装samba服务
