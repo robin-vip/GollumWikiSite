@@ -39,4 +39,6 @@ fixed them.
 ```
 
 ## link
-_**[ubuntu下安装dokuwiki](https://blog.csdn.net/weixin_33989058/article/details/91922408)**_
+_**[ubuntu下安装dokuwiki](https://blog.csdn.net/weixin_33989058/article/details/91922408)**_  
+_**[DokuWiki Installer](https://www.dokuwiki.org/installer)**_  
+_**[Security](https://www.dokuwiki.org/security#web_access_security)**_  
