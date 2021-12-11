@@ -9,6 +9,13 @@
 * sudo apt-get install tasksel
 * sudo tasksel install lamp-server
 
+## 配置和使用
+1. 开启、关闭和重启apache服务器
+```
+# sudo /etc/init.d/apache2 start
+# sudo /etc/init.d/apache2 stop
+# sudo /etc/init.d/apache2 restart
+```
 
 ## link
 _**[how to install lamp in ubuntu](https://www.javatpoint.com/how-to-install-lamp-in-ubuntu)**_  
