@@ -23,5 +23,20 @@ sudo chown -R www-data:www-data data conf
 
 5. 安装 http://127.0.0.1/dokuwiki/install.php
 
+## FAQ
+1. 安装dokuWiKi时在浏览器中输入`http://192.168.56.100/dokuwiki/install.php`有如下错误提示
+```
+The installer found some problems, indicated below. You can not continue until you have 
+fixed them.
+
+    PHP function xml_parser_create is not available. Maybe your hosting provider 
+    disabled it for some reason?
+```
+解决方法如下：
+```  
+# sudo apt-get install php-xml                // 安装php-xml
+# sudo /etc/init.d/apache2 restart            // 重启web server
+```
+
 ## link
 _**[ubuntu下安装dokuwiki](https://blog.csdn.net/weixin_33989058/article/details/91922408)**_
