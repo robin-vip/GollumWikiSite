@@ -120,6 +120,24 @@ password: admin
 # cp config/configuration.yml.example config/configuration.yml   // 配置改变后需要重启服务服务
 ```
 
+3. 设置开机启动
+创建并打开文件
+```
+sudo vi /etc/init.d/redmine
+```
+输入如下内容：
+```
+#!/bin/sh
+# 
+# description: Auto-starts redmine
+# processname: redmine
+cd /home/$user_name/workspace/redmine-4.2.3 && ruby script/rails server webrick -e production
+```
+添加可执行权限
+```
+chmod 755 /etc/init.d/redmine
+```
+
 ## link
 
 _**[redmine download](https://www.redmine.org/projects/redmine/wiki/Download)**_  
