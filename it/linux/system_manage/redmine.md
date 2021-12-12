@@ -101,7 +101,7 @@ redmine运行账号必须有以下子目录的写入权限
 # bundle exec rails server webrick -e production
 ```
 webrick 启动后，可以浏览网址: http://localhost:3000/, 然后可以看到欢迎页面  
-注意： webrick 只能用于安装测试，真正使用只能用Passenger (aka mod_rails), FCGI or a Rack server (Unicorn, Thin, Puma, hellip;) 启动redmine服务。
+注意： webrick 只能用于安装和测试，真正使用只能用Passenger (aka mod_rails), FCGI or a Rack server (Unicorn, Thin, Puma, hellip;) 启动redmine服务。
 
 12. 登录
 缺省账号：
