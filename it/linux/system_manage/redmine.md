@@ -132,7 +132,7 @@ sudo vi /etc/init.d/redmine
 # 
 # description: Auto-starts redmine
 # processname: redmine
-cd /home/$user_name/workspace/redmine-4.2.3 && ruby script/rails server webrick -e production
+cd /home/$user_name/workspace/redmine-4.2.3 && bundle exec rails server webrick -e production
 ```
 添加可执行权限
 ```
