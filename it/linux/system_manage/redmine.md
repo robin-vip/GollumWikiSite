@@ -15,6 +15,7 @@ GRANT ALL PRIVILEGES ON redmine.* TO 'redmine'@'localhost';
 3. 数据库连接配置
 ```
 将config/database.yml.example 复制命名为config/database.yml并配置数据库设置
+(主要是设置数据库账号名和密码)
 ```
 
 4. 安装ruby
