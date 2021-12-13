@@ -155,7 +155,7 @@ program=redmine
 pid=`ps aux | grep "\<$program\>" | pidof ruby`
 
 port=3000
-return_code=`ss -tlnp | grep "\<$port\>" & > /dev/null;echo $?`
+return_code=`ss -tlnp | grep "\<$port\>" &> /dev/null;echo $?`
 
 start() {
     if [ $return_code -eq 0 ] &> /dev/null;then
@@ -203,7 +203,11 @@ esac
 
 exit 0
 ```
-开机后就可以启动redmine服务了(目前还不能工作)：
+添加可执行权限
+```
+chmod 755 /etc/init.d/redmine
+```
+开机后就可以启动redmine服务了(目前还不能工作， /etc/init.d/redmine start 可以)：
 ```
 $ sudo service redmine start
 $ sudo service redmine stop
