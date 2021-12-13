@@ -121,10 +121,11 @@ password: admin
 # cp config/configuration.yml.example config/configuration.yml   // 配置改变后需要重启服务服务
 ```
 
-3. 设置开机启动
+3. 设置开机启动  
+方法1:  
 创建并打开文件
 ```
-sudo vi /etc/init.d/redmine
+sudo vi /etc/profile.d/redmine.sh
 ```
 输入如下内容：
 ```
@@ -132,11 +133,80 @@ sudo vi /etc/init.d/redmine
 # 
 # description: Auto-starts redmine
 # processname: redmine
-cd /home/$user_name/workspace/redmine-4.2.3 && bundle exec rails server webrick -e production
+ruby /home/robin/workspace/redmine-4.2.3/bin/rails server webrick -e production -d &
 ```
 添加可执行权限
 ```
-chmod 755 /etc/init.d/redmine
+chmod 755 /etc/profile.d/redmine.sh
+```
+方法2:  
+创建并打开文件
+```
+sudo vi /etc/init.d/redmine
+```
+输入如下内容：
+```
+# description: Startup script for the redmine server
+# chkconfig: - 85 15
+
+program=redmine
+
+# find the redmine's pid
+pid=`ps aux | grep "\<$program\>" | pidof ruby`
+
+port=3000
+return_code=`ss -tlnp | grep "\<$port\>" & > /dev/null;echo $?`
+
+start() {
+    if [ $return_code -eq 0 ] &> /dev/null;then
+        echo " Redmine is Already Running!!!"
+    else
+        ruby /home/robin/workspace/redmine-4.2.3/bin/rails server webrick -e production -d &> /dev/null
+        echo -e "Starting redmine ----- \e[32m[ OK ]\e[m"
+    fi
+}
+
+stop() {
+    if [ $return_code -ne 0 ] &> /dev/null;then
+        echo " Redmine is Already Stopped !!!"
+    else
+        kill -9 $pid
+        echo -e "Stopping redmine ----- \e[32m[ OK ]\e[m"
+    fi
+}
+
+status() {
+    if [ $return_code -eq 0 ] &> /dev/null;then
+        echo " Redmine is Running !!!"
+    else
+        echo " Redmine is stopped !!!"
+    fi
+}
+
+case "$1" in
+    start)
+        start
+        ;;
+    stop)
+        stop
+        ;;
+    status)
+        status
+        ;;
+    restart)
+        stop
+        start
+        ;;
+    *)
+        echo "Usage: $program {start|stop|status|restart}"
+esac
+
+exit 0
+```
+开机后就可以启动redmine服务了(目前还不能工作)：
+```
+$ sudo service redmine start
+$ sudo service redmine stop
 ```
 
 ## link
