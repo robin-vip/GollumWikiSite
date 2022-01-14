@@ -24,5 +24,5 @@ sudo apt-get install doxygen
 doxygen-gui doxygen-latex doxygen-doc graphviz xapian-tools
 
 ## 链接
-https://zhuanlan.zhihu.com/p/100223113
-https://www.cnblogs.com/arnoldlu/p/11552271.html
+https://zhuanlan.zhihu.com/p/100223113  
+[Ubuntu下doxygen+graphviz使用概述](https://www.cnblogs.com/arnoldlu/p/11552271.html)
