@@ -1,4 +1,4 @@
-# Microsoft HTML Help Workshop install
+# Microsoft HTML Help Workshop usage
 
 操作系统： windows
 
