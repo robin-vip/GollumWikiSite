@@ -1,9 +1,9 @@
 # VC Command Macro usage
 
 ## 命令
-× #pragma once
+* `#pragma once`
 
-* #pragma comment(lib, "wsock32.lib")
+* `#pragma comment(lib, "wsock32.lib")`
 
 ## 宏定义
 * WIN32_LEAN_AND_MEAN
