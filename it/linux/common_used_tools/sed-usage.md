@@ -36,7 +36,8 @@ find . -type f | xargs sed -i "s/old/new/g"
 find . -type f -exec sed  -i "s/old/new/g" {} \;
 
 注意点：
-遍历目录下的所有文件： find . -type f
+遍历目录下的所有文件： find . -type f 
+如果需要修改的文件名有规律， 可以通过 find . -type f -name "xxx"缩小范围，节省命令处理的时间
 sed替换之后，写回源文件： sed -i 选项
 
 2. 修改指定文件
