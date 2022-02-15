@@ -29,4 +29,17 @@ s    :  取代， 可以直接进行取代的工作。通常这个s 的动作可
 
 ## 3. 使用范例
 * 文件字符串替换并写回源文件
+```
+1. 修改指定目录及子目录下所有匹配的文件
+find . -type f | xargs sed -i "s/old/new/g"
+或者
+find . -type f -exec sed  -i "s/old/new/g" {} \;
+
+注意点：
+遍历目录下的所有文件： find . -type f
+sed替换之后，写回源文件： sed -i 选项
+
+2. 修改指定文件
+sed -i "s/old/new/g" filename
+```
 
