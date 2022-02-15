@@ -1,9 +1,9 @@
 # sed usage
 
-## sed 命令说明
+## 1. sed 命令说明
 sed 分析Standard Input（stdin）的数据，然后将数据经过处理后输出到standard out (stdout)。 处理包括行取代，删除，新增，提取特定行等功能。
 
-## 名利格式和参数说明
+## 2. 名利格式和参数说明
 * sed [-nefr] [动作]
 ```
 参数:
