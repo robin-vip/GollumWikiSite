@@ -10,3 +10,13 @@ SELECT * FROM information_schema.`COLUMNS` where TABLE_SCHEMA = '数据库名' a
 ```mysql
 CREATE TABLE 新表 LIKE 旧表;
 ```
+
+3. 获取记录数
+```mysql
+SELECT count(*) FROM db_name.table_name e;
+```
+
+4. 获取指定范围的记录
+```mysql
+SELECT * FROM db_name.table_name e limit 500,100;  （第500行到1500行 (从0开始计数)）
+```
