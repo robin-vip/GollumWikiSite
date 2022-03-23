@@ -20,3 +20,8 @@ SELECT count(*) FROM db_name.table_name e;
 ```mysql
 SELECT * FROM db_name.table_name e limit 500,100;  （第500行到1500行 (从0开始计数)）
 ```
+
+5. 删除某表的所有数据
+```mysql
+DELETE FROM db_name.table_name;
+```
