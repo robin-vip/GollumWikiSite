@@ -19,3 +19,8 @@ git remote rm [name]
 ```
 git remote set-url --push [name] [new url]
 ```
+
+5. **修改远程仓库的名字**
+```
+git remote rename <old> <new>
+```
