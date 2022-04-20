@@ -1,4 +1,4 @@
-# gcc CFLAGS
+# gcc build option
 
 1. 警告与出错选项
 ```
