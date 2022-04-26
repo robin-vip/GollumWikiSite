@@ -33,6 +33,11 @@ alias cman='man -M /usr/share/man/zh_CN'
 * 使用“dpkg -L manpages-zh | less” 命令查看中文man手册安装路径
 
 ## 使用man手册
+|section|description|  
+|----|----|  
+|1. Standard commands|Executable programs or shell commands|
+|2. System calls|System calls (functions provided by the kernel)|
+
 1. 系统函数
 ```
 man 2 open
