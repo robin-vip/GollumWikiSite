@@ -35,8 +35,7 @@ alias cman='man -M /usr/share/man/zh_CN'
 ## 使用man手册
 |section|description|  
 |----|----|  
-|1. Standard commands|Executable programs or shell commands
-可执行程序或shell命令|
+|1. Standard commands|Executable programs or shell commands 可执行程序或shell命令|
 |2. System calls|System calls (functions provided by the kernel)|  
 |3. Library calls|Library calls (functions within program libraries)|  
 
