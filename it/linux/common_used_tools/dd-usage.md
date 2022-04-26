@@ -33,7 +33,8 @@ GB=1000*1000*1000, G=1024*1024*1024, and so on for T, P, E, Z, Y.
 9.  iflag=flag 使用iflag来控制输入(读取数据)时的行为特征. oflag=flag 使用oflag来控制输出(写入数据)时的行为特征。
     flag 参数如下：
     append: 追加模式(仅对输出有意义；隐含了conv=notrunc)
-    direct: 使用直接I/O 存取模式
+    direct: 使用直接I/O 存取模式。direct 模式是把写入请求直接封装成 I/O 指令发到磁盘，非 direct 模式
+            只是把数据写入到系统缓存就认为 I/O 成功，并由操作系统决定缓存中的数据什么时候被写入磁盘。
     directory: 除非是目录，否则 directory 失败
     dsync: 使用同步I/O 存取模式
     sync: 同上，但是针对是元数据
