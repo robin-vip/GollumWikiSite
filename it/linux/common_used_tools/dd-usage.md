@@ -40,6 +40,7 @@ GB=1000*1000*1000, G=1024*1024*1024, and so on for T, P, E, Z, Y.
     fullblock: 为输入积累完整块(iflag only)
     nonblack: 使用无阻塞I/O 存取模式
     noatime: 读写数据不更新访问时间
+    nocache: 丢弃缓存数据
     noctty: 不根据文件指派控制终端
     nofollow: 不跟随链接文件
 10. status=LEVEL
