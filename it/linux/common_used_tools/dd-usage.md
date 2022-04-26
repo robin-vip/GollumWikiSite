@@ -30,18 +30,18 @@ GB=1000*1000*1000, G=1024*1024*1024, and so on for T, P, E, Z, Y.
     noerror：出错时不停止
     notrunc：不截短输出文件
     sync：将每个输入块填充到ibs个字节，不足部分用空（NUL）字符补齐。
-9. iflag=flag 使用iflag来控制输入(读取数据)时的行为特征. oflag=flag 使用oflag来控制输出(写入数据)时的行为特征。
-   flag 参数如下：
-   append: 追加模式(仅对输出有意义；隐含了conv=notrunc)
-   direct: 使用直接I/O 存取模式
-   directory: 除非是目录，否则 directory 失败
-   dsync: 使用同步I/O 存取模式
-   sync: 同上，但是针对是元数据
-   fullblock: 为输入积累完整块(iflag only)
-   nonblack: 使用无阻塞I/O 存取模式
-   noatime: 读写数据不更新访问时间
-   noctty: 不根据文件指派控制终端
-   nofollow: 不跟随链接文件
+9.  iflag=flag 使用iflag来控制输入(读取数据)时的行为特征. oflag=flag 使用oflag来控制输出(写入数据)时的行为特征。
+    flag 参数如下：
+    append: 追加模式(仅对输出有意义；隐含了conv=notrunc)
+    direct: 使用直接I/O 存取模式
+    directory: 除非是目录，否则 directory 失败
+    dsync: 使用同步I/O 存取模式
+    sync: 同上，但是针对是元数据
+    fullblock: 为输入积累完整块(iflag only)
+    nonblack: 使用无阻塞I/O 存取模式
+    noatime: 读写数据不更新访问时间
+    noctty: 不根据文件指派控制终端
+    nofollow: 不跟随链接文件
 10. status=LEVEL
     none: 不输出任何相关信息，除非出错信息
     noxfer: 不会输出最后的统计信息
