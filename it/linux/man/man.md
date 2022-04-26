@@ -36,8 +36,14 @@ alias cman='man -M /usr/share/man/zh_CN'
 |section|description|  
 |----|----|  
 |1. Standard commands|Executable programs or shell commands 可执行程序或shell命令|
-|2. System calls|System calls (functions provided by the kernel)|  
-|3. Library calls|Library calls (functions within program libraries)|  
+|2. System calls|System calls (functions provided by the kernel) 系统调用（由内核提供的函数）|  
+|3. Library calls|Library calls (functions within program libraries) 库调用 （标准库或第三方库提供的函数）|  
+|4. Special devices|Special files (usually found in /dev) 特殊文件（如对文件/dev/random的描述 ）|  
+|5. File formats|File formats and conventions eg /etc/passwd 描述了文件的格式，各个字段的含义和取值约束等|  
+|6. Games and toys|Games 游戏|  
+|7. Miscellaneous|Miscellaneous (including macro packages and conventions), e.g. man(7), groff(7) 杂项（不便具体分类的说明都暂且都放这节）|  
+|8. Administrative Commands|System administration commands (usually only for root) 系统管理员命令（通常仅适用于root用户）|  
+|9. Kernel routines [Non standard]|Kernel routines [Non standard] 内核例程（非标准）|  
 
 1. 系统函数
 ```
