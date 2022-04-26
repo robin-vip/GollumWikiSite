@@ -29,7 +29,7 @@ GB=1000*1000*1000, G=1024*1024*1024, and so on for T, P, E, Z, Y.
     swab：交换输入的每对字节
     noerror：出错时不停止
     notrunc：不截短输出文件
-    sync：将每个输入块填充到ibs个字节，不足部分用空（NUL）字符补齐。
+    sync：将每个输入块填充到ibs个字节，不足部分用0补齐。
 9.  iflag=flag 使用iflag来控制输入(读取数据)时的行为特征. oflag=flag 使用oflag来控制输出(写入数据)时的行为特征。
     flag 参数如下：
     append: 追加模式(仅对输出有意义；隐含了conv=notrunc)
